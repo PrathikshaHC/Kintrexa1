@@ -1,0 +1,63 @@
+Project: Kinetrex Modern Shopping
+
+This is a React storefront built with Vite. It includes product listing,
+product details, cart, wishlist, checkout, search, and category browsing.
+
+Runtime Requirements
+
+- Node.js
+- npm
+
+Project Dependencies
+
+The JavaScript dependencies are managed in package.json and package-lock.json.
+This project does not currently use Python packages, so there are no Python
+pip requirements to install from this file.
+
+Install
+
+Run this from the project root:
+
+  npm install
+
+Start Development Server
+
+Run:
+
+  npm run dev
+
+Then open the local URL shown in the terminal. By default Vite usually runs at:
+
+  http://localhost:5173/
+
+Build For Production
+
+Run:
+
+  npm run build
+
+The production files will be generated in:
+
+  dist/
+
+Preview Production Build
+
+Run:
+
+  npm run preview
+
+Main Files
+
+- index.html: App HTML entry.
+- src/main.jsx: React app entry.
+- src/App.jsx: Route setup.
+- src/pages/: Page components.
+- src/components/: Reusable UI components.
+- src/data/products.js: Product and category data.
+- src/index.css: Main styling.
+
+Available npm Scripts
+
+- npm run dev: Start Vite development server.
+- npm run build: Create production build.
+- npm run preview: Preview the production build locally.
